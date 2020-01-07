@@ -14,10 +14,10 @@ class Author
   end 
   
 
-  def add_post_by_title(name)
-      post = author.new(name)
+  def add_post_by_title(title)
+      post = Post.new(title)
     add_post(post)
-  end 
+   end 
   
   def self.post_count 
     Post.all.count 
