@@ -8,7 +8,7 @@ class Song
   end 
  
  def all 
-   @all 
+   @@all 
   end 
 
 def artist_name
