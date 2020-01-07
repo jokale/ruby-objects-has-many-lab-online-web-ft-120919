@@ -21,9 +21,9 @@ end
 #     add_song(song)
 #   end 
    
-#   def song_count 
-#     return @songs.length  
-#   end 
+ def song_count 
+   @songs.count 
+  end 
    
 end
  
