@@ -20,8 +20,7 @@ end
 #     add_song(song)
 #   end 
 
- song = Song.new(name)
-        add_song(song)
+)
    
  def song_count 
    @songs.count 
