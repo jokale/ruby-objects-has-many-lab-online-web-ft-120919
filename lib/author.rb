@@ -1,6 +1,7 @@
 class Author
   attr_accessor :name
   
+  def 
   
    def posts 
     Post.all.select {|post| post.author == self}
