@@ -7,7 +7,7 @@ class Artist
   end
   
   def songs 
-    @songs 
+    @songs.Artist 
   end 
  
  def add_song(song)
